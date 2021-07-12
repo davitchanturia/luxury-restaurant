@@ -1,0 +1,783 @@
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1170px;
+  }
+}
+.navbar {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  background-color: #fff;
+}
+.navbar .container .collapse .right .nav-item {
+  margin-left: 15px;
+}
+.navbar .container .collapse .right .nav-item .nav-link {
+  color: #2c465a;
+  font-size: 14px;
+  font-family: "Sintony", sans-serif;
+  font-weight: bold;
+  margin-top: 3px;
+  text-align: lo;
+}
+.navbar .container .collapse .button-div {
+  margin-top: -2px;
+  padding: 3px;
+  background-color: #fea100;
+  border-radius: 5px;
+}
+.navbar .container .collapse .button-div button {
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: #fea100;
+  color: #fff;
+  outline: none;
+  font-family: "Sintony", sans-serif;
+  padding: 10px 12px 7px 12px;
+  width: 100%;
+}
+.navbar .container .collapse .button-div button img {
+  margin-right: 14px;
+}
+
+.carousel {
+  height: 647.64px;
+  position: relative;
+}
+.carousel .first-carousel {
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  bottom: inherit;
+  right: inherit;
+  transform: rotate(90deg);
+  margin-left: 0%;
+}
+.carousel .first-carousel .active {
+  border: 2px solid #fea100;
+  position: relative;
+}
+.carousel .first-carousel .active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fea100;
+}
+.carousel .first-carousel button {
+  width: 14px;
+  height: 14px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.carousel .size {
+  width: 100%;
+  height: 647.64px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  object-fit: cover;
+}
+.carousel .header {
+  position: absolute;
+  top: 276px;
+}
+.carousel .header .container h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.carousel .header .container h2 span {
+  color: #fea100;
+}
+.carousel .header .container .first {
+  font-size: 56px;
+}
+
+.sec1 {
+  width: 100%;
+  background-color: #edf1f3;
+  border-bottom: 1px solid #dde3e7;
+}
+.sec1 .container .row {
+  padding: 34px 0px;
+  position: relative;
+  padding-right: none;
+  padding-left: none;
+  margin-top: none;
+}
+.sec1 .container .row .div {
+  display: flex;
+  justify-content: center;
+}
+.sec1 .container .row .div .one {
+  padding: 10px 6px 10px 13px;
+  height: 60px;
+}
+.sec1 .container .row .div .two {
+  padding: 10px 13px 10px 13px;
+  height: 60px;
+}
+.sec1 .container .row .div .div-child {
+  color: black;
+  font-family: "Sintony", sans-serif;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+}
+.sec1 .container .row .div .div-child span {
+  color: #fea100;
+  font-size: 16px;
+}
+.sec1 .container .row .div .div-child h3 {
+  font-size: 14px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: bold;
+}
+.sec1 .container .row .div .div-child h3 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 8px 0px 8px 0px;
+  font-weight: bold;
+}
+.sec1 .container .row .div #only {
+  padding-right: 61px;
+}
+.sec1 .container .row .div .butt {
+  padding: 3px;
+  background-color: #fea100;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+}
+.sec1 .container .row .div .butt button {
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: #fea100;
+  color: #fff;
+  outline: none;
+  font-family: "Sintony", sans-serif;
+  border-radius: 50%;
+  width: 100%;
+}
+.sec1 .container .row .div h4 {
+  font-size: 36px;
+  margin-left: 10px;
+}
+.sec1 .container .row .exp-logo {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  transform: translateY(20%);
+}
+.sec1 .container .row .exp-logo .shape {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  transform: translateY(20%);
+}
+.sec1 .container .row .exp-logo .vio-line {
+  position: absolute;
+  left: 8px;
+  bottom: 50%;
+  transform: translateY(17%);
+}
+.sec1 .container .row .exp-logo .circle {
+  position: absolute;
+  left: 46px;
+  bottom: 120px;
+  transform: translate(20%);
+}
+.sec1 .container .row .exp-logo .food {
+  position: absolute;
+  left: 74px;
+  bottom: 130px;
+  transform: translate(20%);
+}
+.sec1 .container .row .exp-logo .title {
+  position: absolute;
+  left: 37px;
+  bottom: 45px;
+  transform: translate(20%);
+}
+
+.sec2 {
+  padding-bottom: 100px;
+}
+.sec2 .left {
+  padding-top: 66px;
+}
+.sec2 .left .line {
+  padding-top: 56px;
+}
+.sec2 .left .line h1 {
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 40px;
+}
+.sec2 .left .line p {
+  font-size: 14px;
+  font-family: "Sintony", sans-serif;
+  line-height: 24px;
+  color: #5c6369;
+  padding-right: 37px;
+}
+.sec2 .left .down .butt-div {
+  padding: 3px;
+  background-color: #fea100;
+  display: inline-block;
+  margin-top: 27px;
+}
+.sec2 .left .down .butt-div button {
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: #fea100;
+  color: #fff;
+  outline: none;
+  font-family: "Sintony", sans-serif;
+  display: inline-block;
+  font-family: "Sintony", sans-serif;
+  padding: 11px 35px;
+}
+.sec2 .left .down .imgg-div {
+  width: 40%;
+  height: 71px;
+  float: right;
+  margin-right: 110px;
+  margin-top: 16px;
+}
+.sec2 .left .down .imgg-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sec2 .right {
+  display: flex;
+}
+.sec2 .right .column {
+  width: 50%;
+  padding-top: 66px;
+}
+.sec2 .right .column .col-img {
+  width: 100%;
+  padding: 5px;
+}
+.sec2 .right .column .col-img img {
+  width: 100%;
+}
+.sec2 .right .column::before {
+  content: "";
+  width: 100%;
+  height: 50px;
+}
+.sec2 .right .column h5 {
+  color: rgba(122, 18, 18, 0);
+  padding: 20px 0px;
+}
+
+.sec3 {
+  position: relative;
+  width: 100%;
+  height: 961px;
+  background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.sec3:after {
+  content: "";
+  width: 100%;
+  height: 527px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+.sec3 .opacity {
+  height: 100%;
+  background-color: #1f1c2386;
+  position: relative;
+}
+.caru {
+  height: 730px;
+  position: relative;
+  top: 200px;
+}
+.caru .stick {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  z-index: 99;
+  width: 240px;
+}
+.caru .carousel {
+  height: 100%;
+  position: relative;
+  z-index: 999999;
+  z-index: 999;
+}
+.caru .carousel::before {
+  content: "Today Special";
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  font-size: 35px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  color: #fff;
+}
+.caru .carousel .second-carousel {
+  position: absolute;
+  top: -26px;
+  left: inherit;
+  bottom: inherit;
+  right: 0;
+  margin-left: 0%;
+  margin-right: 15px;
+}
+.caru .carousel .second-carousel .active {
+  border: 2px solid #fea100;
+  position: relative;
+}
+.caru .carousel .second-carousel .active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fea100;
+}
+.caru .carousel .second-carousel button {
+  width: 14px;
+  height: 14px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.caru .carousel .card-group {
+  width: 100%;
+  position: relative;
+  z-index: 9999999999999;
+}
+.caru .carousel .card-group .card {
+  margin: 15px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.993);
+  z-index: 9999999999999;
+}
+.caru .carousel .card-group .card img {
+  height: 420px;
+  z-index: 99999;
+  object-fit: cover;
+}
+.caru .carousel .card-group .card .card-body {
+  box-shadow: -2px 2px 10px 1px rgba(184, 184, 184, 0.315);
+  padding: 48px 38px 0px 38px;
+}
+.caru .carousel .card-group .card .card-body .ped {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 60px;
+}
+.caru .carousel .card-group .card .card-body h1 {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Playfair Display", serif;
+  color: #14141d;
+  padding-bottom: 23px;
+}
+.caru .carousel .card-group .card .card-body p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Sintony", sans-serif;
+  color: #5c6369;
+}
+.caru .carousel .card-group .card .card-body .card-foot {
+  padding-top: 18px;
+  padding-bottom: 29px;
+}
+.caru .carousel .card-group .card .card-body .card-foot .headers {
+  color: black;
+  font-family: "Sintony", sans-serif;
+  align-items: center;
+  border-right: 1px solid #e1e1e1;
+}
+.caru .carousel .card-group .card .card-body .card-foot .headers span {
+  color: #fe4c8d;
+  font-size: 16px;
+}
+.caru .carousel .card-group .card .card-body .card-foot .headers h3 {
+  font-size: 14px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: bold;
+}
+.caru .carousel .card-group .card .card-body .card-foot h2 {
+  font-size: 26px;
+}
+.caru .carousel .card-group .card .card-body .card-foot h4 {
+  color: #fea100;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-align: end;
+  font-weight: bold;
+}
+
+.menu {
+  margin-top: 100px;
+}
+.menu .menu-head {
+  border: 2px #a3b0ba dashed;
+}
+.menu .menu-head .menu-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 15px;
+  position: relative;
+}
+.menu .menu-head .menu-nav::before {
+  content: "Food Menu";
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #14141d;
+  z-index: 9999999;
+  font-size: 35px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+.menu .menu-head .menu-nav li {
+  padding: 0px 13px;
+}
+.menu .menu-head .menu-nav li a {
+  text-decoration: none;
+  color: #14141d;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu .list {
+  padding: 54px 0px;
+}
+.menu .list .item {
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px 0px;
+}
+.menu .list .item .lft h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu .list .item .lft h3 {
+  font-size: 14px;
+  color: #5c6369;
+  font-weight: normal;
+}
+.menu .list .item .rght p {
+  text-align: end;
+  color: #fea100;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-align: end;
+  font-weight: bold;
+}
+.menu .list .bat .frame {
+  margin: auto;
+  margin-top: 32px;
+  width: 200px;
+  padding: 3px;
+  background-color: #fea100;
+}
+.menu .list .bat .frame button {
+  padding: 10px 20px;
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: #fea100;
+  color: #fff;
+  outline: none;
+  font-family: "Sintony", sans-serif;
+  font-size: 14px;
+  width: 100%;
+}
+
+.feedback .carousel {
+  height: 465px;
+}
+.feedback .carousel .carousel-item {
+  background-image: url("img/car-background.png");
+  height: 465px;
+}
+.feedback .carousel .carousel-item .caru-info {
+  position: relative;
+  padding: 100px 180px;
+}
+.feedback .carousel .carousel-item .caru-info h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  padding-bottom: 27px;
+}
+.feedback .carousel .carousel-item .caru-info p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Sintony", sans-serif;
+  color: #fff;
+  margin: auto;
+}
+.feedback .carousel .carousel-item .caru-info .img {
+  position: relative;
+  left: 50%;
+  top: 25px;
+  transform: translateX(-50%);
+}
+.feedback .carousel .carousel-item .caru-info .img .poto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: solid 3px #fff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+.feedback .carousel .carousel-item .caru-info .img h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Sintony", sans-serif;
+}
+.feedback .carousel .carousel-item .caru-info .img .star {
+  height: 13px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reserve {
+  padding: 63px 0px 100px 0px;
+}
+.reserve h1 {
+  padding: 38px 0px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.reserve .left {
+  padding-right: 15px;
+}
+.reserve .left img {
+  width: 100%;
+  height: 334px;
+  object-fit: cover;
+}
+.reserve .right {
+  padding: 20px 10px 10px 15px;
+}
+.reserve .right .input.div {
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #c7d1d6;
+}
+.reserve .right .input.div input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+}
+.reserve .right .input.div i {
+  margin-right: 14px;
+}
+.reserve .right .down .bt {
+  padding: 3px;
+  background-color: #fea100;
+}
+.reserve .right .down .bt button {
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: #fea100;
+  color: #fff;
+  outline: none;
+  font-family: "Sintony", sans-serif;
+  padding: 10px 0px;
+  width: 100%;
+}
+.reserve .right .down h3 {
+  font-size: 13px;
+  font-weight: bold;
+  border-right: grey solid 1px;
+  font-family: "Sintony", sans-serif;
+  margin-top: 10px;
+  padding-right: 5px;
+  color: black;
+  font-family: "Sintony", sans-serif;
+  align-items: center;
+}
+.reserve .right .down h3 span {
+  color: #fa75a6;
+  font-size: 16px;
+}
+.reserve .right .down h3 h3 {
+  font-size: 14px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: bold;
+}
+.reserve .right .down h3 span {
+  font-size: 13px;
+}
+.reserve .right .down p {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+footer {
+  background-color: #373844;
+  padding-top: 100px;
+}
+footer h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 30px;
+}
+footer .foot-left ul li {
+  padding: 5px 0px;
+}
+footer .foot-left ul li a {
+  text-decoration: none;
+  color: #adb2b7;
+  font-family: "Sintony", sans-serif;
+}
+footer .foot-middle p {
+  color: #adb2b7;
+}
+footer .foot-middle .click {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+footer .foot-middle .click .foot-input {
+  border: 2px solid #52535e;
+  margin-right: 5px;
+}
+footer .foot-middle .click .foot-input i {
+  color: #fea100;
+  padding: 15px;
+  font-size: 14px;
+}
+footer .foot-middle .click .foot-input input {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  padding: 10px 10px 10px 0px;
+}
+footer .foot-middle .click .foot-input input::placeholder {
+  color: #b1b1bb;
+  font-size: 14px;
+}
+footer .foot-middle .click button {
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: #fea100;
+  color: #fff;
+  outline: none;
+  font-family: "Sintony", sans-serif;
+  border: none;
+  padding: 14px 30px;
+  font-size: 14px;
+  font-family: "Sintony", sans-serif;
+}
+footer .foot-middle .foot-icons .icn {
+  background-color: #3a5999;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+footer .foot-middle .foot-icons .twit {
+  background-color: #54a9e9;
+}
+footer .foot-middle .foot-icons .google {
+  background-color: #db4a37;
+}
+footer .foot-right button {
+  background-color: #52535e;
+  border-radius: 5px;
+}
+footer .foot-right button img {
+  padding: 15px 20px;
+}
+footer .foot-right button .foot-text {
+  padding: 15px 36px 15px 0px;
+}
+footer .foot-right button .foot-text:first-child {
+  font-size: 8px;
+}
+footer .foot-right button .foot-text h5 {
+  text-align: left;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-size: 20px;
+}
+footer .foot-right .db {
+  padding-right: 32px;
+  margin-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  .del {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .caru-info {
+    padding: 100px 20px !important;
+  }
+
+  .resize {
+    font-size: 13px !important;
+  }
+
+  .menu {
+    margin-top: 200px !important;
+  }
+}
+@media (max-width: 500px) {
+  .menu {
+    margin-top: 270px !important;
+  }
+
+  .feedback {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=food.css.map */

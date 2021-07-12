@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="food.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--navbar-->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+    <div class="container">
+      <img src="img/logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-auto" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto right">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">recipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#">contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="img/icon_cart.png" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#"> Visit your cart</a></li>
+              <li><a class="dropdown-item" href="#">Calculate</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        <div class="button-div nav-item">
+          <button> <img src="img/icon_plate.png" alt="">BOOK YOUR TABLE</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--navbar-->
+
+  <!--carousel-->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators first-carousel">
+
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+
+
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="size"
+          src="https://images.unsplash.com/photo-1527976746453-f363eac4d889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption header d-none d-md-block">
+          <div class="container">
+            <h2 class="text-start first">Teast your fav dish</h2>
+            <h2 class="text-start">from <span>luxury restaurent.</span></h2>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="size"
+          src="https://images.unsplash.com/photo-1527976746453-f363eac4d889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption header d-none d-md-block">
+          <div class="container">
+            <h2 class="text-start first">Teast your fav dish</h2>
+            <h2 class="text-start">from <span>luxury restaurent.</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="size"
+          src="https://images.unsplash.com/photo-1527976746453-f363eac4d889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption header d-none d-md-block">
+          <div class="container">
+            <h2 class="text-start first">Teast your fav dish</h2>
+            <h2 class="text-start">from <span>luxury restaurent.</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+  </div>
+
+  <!--carousel-->
+
+
+  <!--section1-->
+  <section class="sec1">
+    <div class="container">
+      <div class="row">
+        <!--1)-->
+        <div class="div del  col-xl-3 col-xl-3">
+          <!--es carielia-->
+        </div>
+        <!--2)-->
+        <div class="div col-12 col-md-12  col-xl-3 pe-5 hole-border">
+          <img class="one" src="img/icon_reviews.png" alt="">
+
+          <div class="div-child">
+            <h3>READ <br> <span>REWIEVS</span> </h3>
+          </div>
+
+          <div class="butt">
+            <button><img src="img/arrow.png" alt=""></button>
+          </div>
+
+        </div>
+        <!--3)-->
+        <div class="div col-12 col-md-6  col-xl-3">
+          <img class="two" src="img/icon_phone.png" alt="">
+          <div class="div-child" id="only">
+            <h3>CALL US NOW FOR <br> <span>HOME DELIVERY</span></h3>
+          </div>
+        </div>
+
+        <div class="div col-12 col-md-6 col-xl-3 num">
+          <h4>1-008 005 006</h4>
+        </div>
+
+        <div class="exp-logo del">
+          <img class="shape" src="img/explore/violet_shape.png" alt="">
+          <img class="vio-line" src="img/explore/violet_shape_line.png" alt="">
+          <img class="circle" src="img/explore/circle.png" alt="">
+          <img class="food" src="img/explore/icon_food.png" alt="">
+          <img class="title" src="img/explore/Exlore  food Menu.png" alt="">
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+  </section>
+
+  <!--section2-->
+
+  <section class="sec2">
+    <div class="container">
+      <div class="row">
+        <div class="left col-md-6">
+          <div class="line">
+            <h1 class="text-capitalize">about restaurent</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the
+              1500s, when an unknown printer took a galley of type and scrambled it
+              to make a type specimen book. It has survived not
+              only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged... </p>
+          </div>
+          <div class="down">
+            <div class="butt-div">
+              <button class="text-uppercase">read more</button>
+            </div>
+            <div class="imgg-div">
+              <img
+                src="https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80"
+                alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="right col-md-6">
+          <div class="column">
+
+            <div class="col-default">
+              <!--carielia-->
+              <h5>blablabla</h5>
+            </div>
+            <div class="col-img">
+              <img
+                src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
+                alt="">
+            </div>
+            <div class="col-img">
+              <img
+                src="https://images.unsplash.com/photo-1515169067868-5387ec356754?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                alt="">
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="col-img">
+              <img
+                src="https://images.unsplash.com/photo-1532634922-8fe0b757fb13?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
+                alt="">
+            </div>
+            <div class="col-img">
+              <img
+                src="https://images.unsplash.com/photo-1598515213692-5f252f75d785?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--სეცტიონ3-->
+
+
+  <section class="sec3">
+
+    <div class="opacity">
+
+
+
+      <div class="container">
+        <div class="caru row">
+          <img class="stick" src="img/pizaa.png" alt="">
+          <div id="carouselExampleIndicators2" class="carousel slide me-auto" data-bs-ride="carousel">
+
+            <div class="carousel-indicators second-carousel">
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                <div class="card-group ">
+                  <div class="card">
+                    <img
+                      src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="ped">
+                        <h1>food name one</h1>
+                        <p class="card-text">printing and typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled.</p>
+                      </div>
+                      <div class="card-foot">
+                        <div class="row">
+                          <div class="col col-lg-3">
+                            <div class="headers">
+                              <h3>HOME
+                              <span>DELIVARY</span> </h3>
+                            </div>
+                          </div>
+                          <div class="col col-lg-5">
+                            <h2>1-008 005 006</h2>
+                          </div>
+                          <div class="col col-lg-4">
+                            <h4>$89.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card del">
+                    <img
+                      src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="ped">
+                        <h1>food name one</h1>
+                        <p class="card-text">printing and typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled.</p>
+                      </div>
+                      <div class="card-foot">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <div class="headers">
+                              <h3>HOME
+                                <span>DELIVARY</span> </h3>
+                            </div>
+                          </div>
+                          <div class="col-lg-5">
+                            <h2>1-008 005 006</h2>
+                          </div>
+                          <div class="col-lg-4">
+                            <h4>$89.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+
+                <div class="card-group">
+                  <div class="card">
+                    <img
+                      src="https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1393&q=80"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="ped">
+                        <h1>food name one</h1>
+                        <p class="card-text">printing and typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled.</p>
+                      </div>
+                      <div class="card-foot">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <div class="headers">
+                              <h3>HOME
+                                <span>DELIVARY</span> </h3>
+                            </div>
+                          </div>
+                          <div class="col-lg-5">
+                            <h2>1-008 005 006</h2>
+                          </div>
+                          <div class="col-lg-4">
+                            <h4>$89.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card del">
+                    <img
+                      src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="ped">
+                        <h1>food name one</h1>
+                        <p class="card-text">printing and typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled.</p>
+                      </div>
+                      <div class="card-foot">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <div class="headers">
+                              <h3>HOME
+                                <span>DELIVARY</span> </h3>
+                            </div>
+                          </div>
+                          <div class="col-lg-5">
+                            <h2>1-008 005 006</h2>
+                          </div>
+                          <div class="col-lg-4">
+                            <h4>$89.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+
+                <div class="card-group">
+                  <div class="card">
+                    <img
+                      src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="ped">
+                        <h1>food name one</h1>
+                        <p class="card-text">printing and typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled.</p>
+                      </div>
+                      <div class="card-foot">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <div class="headers">
+                              <h3>HOME
+                                <span>DELIVARY</span> </h3>
+                            </div>
+                          </div>
+                          <div class="col-lg-5">
+                            <h2>1-008 005 006</h2>
+                          </div>
+                          <div class="col-lg-4">
+                            <h4>$89.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card del">
+                    <img
+                      src="https://images.unsplash.com/photo-1520073201527-6b044ba2ca9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=655&q=80"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="ped">
+                        <h1>food name one</h1>
+                        <p class="card-text">printing and typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled.</p>
+                      </div>
+                      <div class="card-foot">
+                        <div class="row">
+                          <div class="col-6 col-lg-3">
+                            <div class="headers">
+                              <h3>HOME
+                                <span>DELIVARY</span> </h3>
+                            </div>
+                          </div>
+                          <div class="col-6 col-lg-5">
+                            <h2>1-008 005 006</h2>
+                          </div>
+                          <div class="col-12 col-lg-4">
+                            <h4>$89.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <section class="menu">
+    <div class="menu-head">
+      <div class="container">
+        <ul class="menu-nav  list-inline">
+          <li> <a href="#" class="resize">All</a> </li>
+          <li> <a href="#" class="resize">Breakfast</a> </li>
+          <li> <a href="#" class="resize">Lunch</a> </li>
+          <li> <a href="#" class="resize">Snacks</a> </li>
+          <li> <a href="#" class="resize">Pizza</a> </li>
+          <li> <a href="#" class="resize">Soups</a> </li>
+          <li> <a href="#" class="resize">Dinner</a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row list">
+        <div class="col-md-6 pe-4">
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6  none">
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+
+          <div class="item row">
+            <div class="lft col-8">
+              <h1>Ultimate organic salad</h1>
+              <h3>survived not only five centuries but the leap</h3>
+            </div>
+            <div class="rght col-4">
+              <p>$50</p>
+            </div>
+          </div>
+        </div>
+        <div class="bat">
+          <div class="frame">
+            <button>EXPLORE FOOD MENU</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="feedback">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="container">
+            <div class="caru-info">
+              <h1>Happy Clients</h1>
+              <p>Many desktop publishing packages and web page editors now use
+                Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                will uncover many web sites still in their
+                infancy. Various versions have evolved
+                over the years, sometimes by accident, sometimes on purpose. </p>
+              <div class="img">
+                <img class="poto" src="img/3-4.png" alt="">
+                <h2>DR.PRABAKARAN JOHN</h2>
+                <img class="star" src="img/icon_star.png" alt="">
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="caru-info">
+              <h1>Happy Clients</h1>
+              <p>Many desktop publishing packages and web page editors now use
+                Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                will uncover many web sites still in their
+                infancy. Various versions have evolved
+                over the years, sometimes by accident, sometimes on purpose. </p>
+              <div class="img">
+                <img class="poto" src="img/3-4.png" alt="">
+                <h2>DR.PRABAKARAN JOHN</h2>
+                <img class="star" src="img/icon_star.png" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="caru-info">
+              <h1>Happy Clients</h1>
+              <p>Many desktop publishing packages and web page editors now use
+                Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                will uncover many web sites still in their
+                infancy. Various versions have evolved
+                over the years, sometimes by accident, sometimes on purpose. </p>
+              <div class="img">
+                <img class="poto" src="img/3-4.png" alt="">
+                <h2>DR.PRABAKARAN JOHN</h2>
+                <img class="star" src="img/icon_star.png" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <img src="img/left_arrow.png" alt="">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <img src="img/right_arrow.png" alt="">
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="reserve">
+    <div class="container">
+      <div class="row">
+        <h1>Reserve your table</h1>
+        <div class="col-12 col-md-6 left">
+          <img
+            src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+            alt="">
+        </div>
+        <div class="col-12 col-md-6 right">
+          <form action="">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input div">
+                  <input type="text" placeholder="Name*">
+                  <i class="far fa-user"></i>
+                </div>
+
+                <div class="input div">
+                  <input type="number" placeholder="Time*">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <div class="input div">
+                  <input type="text" placeholder="Guests*">
+                  <i class="fas fa-users"></i>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="input div">
+                  <input type="date" placeholder="Date*">
+                </div>
+                <div class="input div">
+                  <input type="email" placeholder="Email Adress*">
+                  <i class="far fa-envelope"></i>
+
+                </div>
+                <div class="input div">
+                  <input type="number" placeholder="Phone Number*">
+                  <i class="fas fa-mobile-alt"></i>
+
+                </div>
+              </div>
+
+              <div class="row down">
+                <div class="col-12 col-lg-5">
+                  <div class="bt">
+                    <button>Make Reservation</button>
+                  </div>
+
+                </div>
+                <div class=" col-5 col-lg-3 d-flex">
+                  <h3>you can also call <br> <span>for a reservation</span></h3>
+                </div>
+                <div class="col-7 col-lg-4">
+                  <p>1-007 000 005</p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 foot-left">
+          <h1>Navigation</h1>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Recipe</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 foot-middle">
+          <h1>News letter</h1>
+          <p>Enter your email address and subscribe daily newsletter</p>
+
+          <div class="input-group mb-3 click">
+            <div class="foot-input">
+              <i class="far fa-envelope"></i>
+              <input type="email" placeholder="Email Addres">
+            </div>
+            
+            <button class="foot-btn" type="button">Subscribe</button>
+          </div>
+          <div class="foot-icons">
+            <button class="icn ">
+              <img src="img/icon_facebook.png" alt="">
+            </button>
+            <button class="icn twit">
+              <img src="img/icon_twitter.png" alt="">
+            </button>
+            <button class="icn google">
+              <img src="img/icon_google+.png" alt="">
+            </button>
+
+          </div>
+        </div>
+        <div class="col-md-3 foot-right">
+          <h1>Our app avilable</h1>
+          <button class="d-flex">
+            <img src="img/icon_apple.png" alt="">
+            <div class="foot-text">
+              <h5>Avilable on the</h5> 
+              <h5>App Store</h5>  
+            </div>
+            
+          </button>
+          <button class="d-flex db">
+            <img src="img/icon_Google Play.png" alt="">
+            <div class="foot-text">
+              <h5>Get it on</h5> 
+              <h5>Google Play</h5>  
+            </div>
+            
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
